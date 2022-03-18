@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ContainerStyle = styled.div `
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-     grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr;
+     grid-template-columns: 280px 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 60px;
      gap: 0px 0px;
      grid-auto-flow: row;
      grid-template-areas:
@@ -11,7 +11,7 @@ export const ContainerStyle = styled.div `
        "sidemenu content content content content"
        "sidemenu content content content content"
        "footer footer footer footer footer";
-       max-height: 100vh;
+       height: 100vh;
      
       
      & * {
