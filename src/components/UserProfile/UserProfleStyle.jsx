@@ -5,6 +5,9 @@ const UserProfileStyle = styled.div `
     padding: 16px 20px;
     border-radius: 12px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 `;
 
 export default UserProfileStyle

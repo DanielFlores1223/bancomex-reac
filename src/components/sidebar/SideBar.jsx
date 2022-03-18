@@ -1,6 +1,6 @@
 import { SideBarStyle } from "./SideBarStyle"
-import LogoColorStyle from "../Logo/LogoColorStyle"
-import Logo from "../Logo/Logo"
+import LogoColorStyle from "../common/Logo/LogoColorStyle"
+import Logo from "../common/Logo/Logo"
 import UserProfileStyle from "../UserProfile/UserProfleStyle"
 import UserProfile from "../UserProfile/UserProfle"
 
