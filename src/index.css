@@ -1,6 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -9,66 +13,6 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.structure-users {
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
 
 
-
-
-/* CSS DEL GRID */
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "sidemenu menu menu menu menu"
-      "sidemenu content content content content"
-      "sidemenu content content content content"
-      "footer footer footer footer footer";
-  }
-  
-  .menu { 
-      grid-area: menu;
-      height: 100px; 
-    }
-  
-  .sidemenu { 
-      grid-area: sidemenu; 
-}
-  
-  .content { 
-      grid-area: content; 
-    }
-  
-  .footer { 
-      grid-area: footer; 
-    }
-  
-  
-  html, body , .container {
-    height: 100%;
-    margin: 0;
-  }
-  
-  /* For presentation only, no need to copy the code below */
-  
-  .container * {
-    border: 1px solid red;
-    position: relative;
-  }
-  
-  .container *:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
   
