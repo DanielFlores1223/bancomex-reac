@@ -1,13 +1,29 @@
 import styled from 'styled-components';
 
 const UserProfileStyle = styled.div `
-    background-color: rgba(145, 158, 171, 0.12);
+    background-color: var(--grayPrimary);
     padding: 16px 20px;
     border-radius: 12px;
     cursor: pointer;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    margin-bottom: 3rem;
+
+    & div {
+        margin-left: 0.5rem;
+    }
+
+    & div  p{
+        margin: 0;
+        text-align: center;
+        color: var(--grayDark);
+    }
+
+    .nameUser{
+        font-weight: 600;
+    }
 `;
+
 
 export default UserProfileStyle

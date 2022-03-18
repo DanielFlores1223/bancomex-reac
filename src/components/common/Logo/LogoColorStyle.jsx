@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const LogoColorStyle = styled.div `
-    margin: 32px auto;
+    margin: 1rem auto;
     text-align: center;
     cursor: pointer;
 

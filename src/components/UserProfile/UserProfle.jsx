@@ -6,8 +6,11 @@ export default function UserProfile() {
   return (
       <>
         <UserProfileStyle>
-              <Icon src='images/user.png' type='32' />
-              <label>UserProfile</label>
+              <Icon src='images/user.png' type='28' />
+              <div>
+                  <p className='nameUser'>UserProfile</p>
+                  <p>Role</p>
+              </div>
         </UserProfileStyle>
       </>
   )

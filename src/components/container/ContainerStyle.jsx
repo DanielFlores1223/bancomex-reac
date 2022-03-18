@@ -15,7 +15,7 @@ export const ContainerStyle = styled.div `
      
       
      & * {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         position: relative;
          
      }
